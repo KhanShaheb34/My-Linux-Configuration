@@ -60,7 +60,6 @@ while true; do
     case $yn in
         [Yy]*|"" )
 			# Cleanup orphan packages
-			yay -Rns manjaro-hello
 			yay -Rns $(yay -Qtdq)
 	       	break;;
         [Nn]* ) break;;

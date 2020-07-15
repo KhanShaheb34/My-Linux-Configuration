@@ -43,7 +43,7 @@ while true; do
 	       	yay -S - < softwares_and_tools.txt
 
 	       	message "installing pip and some of it's tool"
-	       	pip install virtualenv django
+	       	pip install virtualenv
 
 	  		# message "configuring the tools"
 	  		# shopt -s expand_aliases

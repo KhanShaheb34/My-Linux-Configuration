@@ -35,8 +35,8 @@ sudo sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
 # Git configuration
 message "setting global email and username for github"
 
-git config --global user.email "shahriarelahi3062@gmail.com"
-git config --global user.name "ShahriarDhruvo"
+git config --global user.email "shakirul34@student.sust.edu"
+git config --global user.name "KhanShaheb34"
 
 # while true; do
 # 	conf_message "update default timeout" 
